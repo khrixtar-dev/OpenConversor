@@ -5,10 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#101c22"
+    android:background="#101B21"
     android:fontFamily="sans-serif-medium"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="366dp"
+        android:layout_height="25dp"
+        android:text="Desarrollado por khristar-dev"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
 
     <TextView
         android:id="@+id/txtTitulo"
